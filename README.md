@@ -20,7 +20,9 @@ Fetch lists/campaigns from the connected ESP.
 │── models/integration.js     # Mongoose schema for integrations
 │── .env                      # Environment variables
 
-⚙️ Setup & Installation
+
+
+ Setup & Installation
 
 Clone the repo:
 
@@ -49,7 +51,9 @@ Server will run at: http://localhost:5000
 
  API Endpoints
 
-/////////////////////////////
+
+
+
 1. Save & Validate API Key
 
 POST /api/integrations/esp
@@ -68,10 +72,10 @@ Response:
   "success": true,
   "message": "mailchimp API key validated and saved"
 }
-/////////////////////////////
 
 
-////////////////////////////
+
+
 2. Get Lists / Campaigns
 
 GET /api/integrations/esp/lists?provider=mailchimp&userId=12345
@@ -90,7 +94,10 @@ Response (GetResponse example):
   "success": true,
   "lists": [ ... ]
 }
-//////////////////////////////
+
+
+
+
 
 
 TECH STACKS
